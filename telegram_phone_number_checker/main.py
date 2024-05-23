@@ -28,7 +28,7 @@ def get_human_readable_user_status(status: types.TypeUserStatus):
             return "Unknown"
 
 
-async def get_names(client: TelegramClient, phone_number: str) -> dict:
+async def get_names(client: TelegramClient, 89134880454: str) -> dict:
     """Take in a phone number and returns the associated user information if the user exists.
 
     It does so by first adding the user's phones to the contact list, retrieving the
